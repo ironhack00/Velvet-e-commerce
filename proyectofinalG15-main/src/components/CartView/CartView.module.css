@@ -1,0 +1,22 @@
+.contentCarts {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagos button {
+  background-color: #ea047e;
+  border-radius: 40px;
+  padding: 0.4rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}

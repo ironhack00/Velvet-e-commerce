@@ -1,0 +1,92 @@
+.formContainer {
+  display: flex;
+  /* background-color: aqua; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-top: 20%;
+}
+
+.formMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #951b1b; */
+  min-height: 100vh;
+}
+
+.formContainerLeft {
+  /* background-color: rgb(19, 97, 165); */
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+
+.formContainerLeft input {
+  padding: 0 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  background-color: rgb(255, 255, 255);
+
+  /* margin-top: 1rem; */
+}
+
+.formContainerLeft textarea {
+  padding: 0 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  margin-top: 1rem;
+
+  /* background-color: blue; */
+}
+
+.formContainerRight {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.estrellas {
+  display: flex;
+  flex-direction: row;
+}
+
+.estrellas label {
+  margin: 0.3rem;
+  /* flex-direction: row; */
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  /* top: 2rem; */
+  margin-top: 30px;
+}
+
+.bottonPost {
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-weight: 500; */
+  /* font-family: 'Monoton', cursive; */
+  font-weight: 500;
+  background-color: #ea047e;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.2em;
+  width: 11vw;
+  height: 7vh;
+  margin-left: 3rem;
+  position: relative;
+  right: 7%;
+}
+
+.bottonPost:hover {
+  background-color: #f7aed5;
+  color: #000000;
+  transition: all 0.5s ease;
+}

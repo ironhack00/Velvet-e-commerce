@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 2rem;
+  border-radius: 30px;
+}
+
+.content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tagFrom input {
+  display: block;
+  border-radius: 40px;
+  border: 1px solid #ddd;
+}
+
+.butonPago {
+  background-color: #ea047e;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 4rem;
+}
+
+.botonMP {
+  background-color: blue;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+  margin: 0px;
+}
+
+.botonMP:hover {
+  /* Tus atributos CSS */
+  background-color: blue;
+}
+
+.titleorder {
+  font-size: 2.5rem;
+  text-align: start;
+  margin: 0 4rem;
+  margin-bottom: -3rem;
+  border-bottom: 1px solid #ddd;
+  width: max-content;
+}

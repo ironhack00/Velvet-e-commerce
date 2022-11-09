@@ -1,0 +1,160 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  padding-bottom: 4rem;
+}
+
+.contentPerfile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.confirmarEmail {
+  margin-top: 1rem;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3rem;
+  height: max-content;
+}
+
+.perileImage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.perileImage img {
+  width: 200px;
+}
+
+.perileImage input {
+  width: 100px;
+}
+
+.butonApli {
+  background-color: rgb(86, 86, 242);
+  width: max-content;
+  padding: 0.6rem 2rem;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 1rem;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputs input {
+  border-radius: 40px;
+  border: 1px solid #ddd;
+}
+
+.inputs h6 {
+  margin: 0 1rem;
+}
+
+.carrito {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 1rem 0;
+  width: 600px;
+  height: max-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carrito h5 {
+  font-size: 2.5rem;
+  border-bottom: 1px solid #ea047e;
+  width: max-content;
+}
+.carrito h6 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  border-radius: 40px;
+  padding: 0 1rem;
+  color: #444;
+  border: 1px solid #ddd;
+}
+
+.viewAll {
+  border-radius: 40px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #999;
+  width: max-content;
+  margin-top: 2rem;
+}
+
+.contentCarrFav {
+  width: 100%;
+  gap: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.favoritos {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 1rem 0;
+  width: 600px;
+  height: max-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favoritos h6 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  border-radius: 40px;
+  padding: 0 1rem;
+  color: #444;
+  border: 1px solid #ddd;
+}
+
+.favoritos h5 {
+  font-size: 2.5rem;
+  border-bottom: 1px solid #ea047e;
+  width: max-content;
+}
+
+.products {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 1rem 0;
+  width: 90%;
+  height: max-content;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.products h5 {
+  font-size: 2.5rem;
+  border-bottom: 1px solid #ea047e;
+  width: max-content;
+  margin: 0 20rem;
+}

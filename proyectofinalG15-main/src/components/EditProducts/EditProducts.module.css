@@ -1,0 +1,112 @@
+.content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5rem;
+}
+
+.card {
+  margin-left: 2rem;
+  width: max-content;
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.card h5 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #999;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 200px;
+
+  margin: 0 5rem;
+}
+
+.card p {
+  border: 1px solid #999;
+  border-radius: 40px;
+  margin-top: 1rem;
+  width: 50%;
+  height: max-content;
+  padding: 0.5rem 1rem;
+}
+
+.productModifi {
+  width: 42%;
+  height: max-content;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.productModifi h5 {
+  text-align: center;
+  width: max-content;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #999;
+  margin: 1rem;
+}
+
+.productModifi select {
+  width: 15rem;
+  background: transparent;
+  border-radius: 40px;
+}
+
+.productModifi form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productModifi div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.1rem 1rem;
+}
+
+.productModifi div p {
+  width: max-content;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.productModifi div ul {
+  display: flex;
+}
+
+.productModifi div ul li {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.productModifi input {
+  width: 15rem;
+  border-radius: 40px;
+  background: transparent;
+  border: 1px solid #999;
+}
+
+.danger {
+  background-color: red;
+}
+
+.butonSaveChangue {
+  background-color: #ea047e;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 40px;
+  width: 70%;
+  margin: 1rem 5rem;
+  transition: all 0.5s ease;
+}
+
+.butonSaveChangue:active {
+  transform: scale(0.99);
+}

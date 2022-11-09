@@ -1,0 +1,185 @@
+.content {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.hola {
+  background-color: red;
+}
+
+.butons {
+  background-color: #ea047e;
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
+  color: #fff;
+  height: max-content;
+  margin: 1rem;
+  box-shadow: 0 0 15px #ddd;
+}
+.tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+.tabs ul {
+  display: flex;
+}
+
+.tabs li {
+  cursor: pointer;
+  margin: 1rem;
+  border-bottom: 2px solid #ea047e;
+}
+
+.contentsInfo {
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contentsInfoNo {
+  visibility: hidden;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.contentAllUsersNo h5 {
+  color: red;
+}
+
+.contentsInfo h5 {
+  font-size: 2rem;
+}
+
+.search {
+  border-radius: 40px;
+  border: 1px solid #ddd;
+  height: max-content;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 0 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  background-color: transparent;
+  border: none;
+  width: 300px;
+}
+
+.contentUsers {
+  width: 400px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.contentUsersB {
+  width: 400px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #ddd;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.contentUsers button,
+.contentUsersB button {
+  background-color: #d90429;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  border-radius: 40px;
+  width: max-content;
+}
+
+.contentProducts {
+  width: 400px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.contentProductsDes {
+  width: 400px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 15px #ddd;
+  background-color: #ddd;
+}
+
+.contentProducts img,
+.contentProductsDes img {
+  width: 100px;
+  height: 100px;
+}
+
+.butonsCards {
+  background-color: red;
+  color: #fff;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  width: max-content;
+  margin: 1rem 1rem 0 0;
+}
+
+.butonsCardsDes {
+  background-color: #ddd;
+  border: 1px solid #999;
+  color: #fff;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  width: max-content;
+  margin: 1rem 1rem 0 0;
+  pointer-events: none;
+}
+
+.contentsOrder {
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contentsOrder h5 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contentsOrderNo {
+  visibility: hidden;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.contentOderProduct {
+  width: 400px;
+  height: max-content;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 15px #ddd;
+}

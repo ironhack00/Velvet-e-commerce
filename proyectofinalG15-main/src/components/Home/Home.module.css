@@ -1,0 +1,124 @@
+.content {
+  background-color: #fff;
+  display: flex;
+}
+
+.cards {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filters {
+  text-align: start;
+  width: 200px;
+  height: 60vh;
+  margin: 20px 20px;
+  border-radius: 20px;
+}
+
+.filters h2 {
+  text-align: justify;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.titleFilters {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.contentFilterCategory {
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.contentFilterCategory select {
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #fff;
+  color: #000;
+  width: 11rem;
+  border: 1px solid #ddd;
+}
+
+.contentFilterCategory select:hover {
+  color: #000;
+}
+
+.contentFilterPrice {
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ddd;
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px;
+}
+.cargando {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  color: #ea047e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.rangePrecie {
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+}
+
+.range {
+  background: transparent;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.rangeText {
+  background-color: #fff;
+  width: 4rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 40px;
+  border: 1px solid #ddd;
+}
+
+.contentPrecie p {
+  color: #555;
+}
+
+.fiterSize {
+  margin-top: 1.5rem;
+  box-shadow: 0 0 10px #ddd;
+  background-color: #fff;
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px;
+}
+
+.fiterSize select {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.filterType {
+  background-color: #fff;
+  margin-top: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px;
+}
+
+.filterType select {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}

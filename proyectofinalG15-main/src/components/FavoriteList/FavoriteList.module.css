@@ -1,0 +1,23 @@
+.list {
+  width: 30rem;
+  min-height: 10rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list h6 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ea047e;
+  width: max-content;
+}
+
+.viewAll {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ea047e;
+}
